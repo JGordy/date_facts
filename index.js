@@ -1,7 +1,6 @@
 const moment = require("moment");
 const chalk = require("chalk");
 
-let now = moment();
 
 console.log("It is " + chalk.blue(moment().format("dddd, MMMM Do YYYY, h:mm:ss a")) );
 
